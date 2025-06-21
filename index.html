@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>My Web Learning Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- W3.CSS Framework Link -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <!-- Internal Custom CSS -->
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #fffaf2;
+    }
+    .main-content {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    .custom-button {
+      background-color: #f57c00;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+    }
+    .custom-button:hover {
+      background-color: #e65100;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Header -->
+<header class="w3-container w3-orange w3-center w3-padding-32">
+  <h1 class="w3-xxlarge">🌟 My Web Page</h1>
+  <p>Just me exploring HTML, CSS & JavaScript</p>
+</header>
+
+<!-- Main Content -->
+<div class="main-content">
+
+  <h2>👋 Hello There!</h2>
+  <p>I'm currently exploring how websites work. I made this little page using what I learned from <a href="https://www.w3schools.com" target="_blank">W3Schools</a>.</p>
+
+  <h3>📸 A Photo I Like</h3>
+  <img src="https://www.w3schools.com/w3images/lights.jpg" class="w3-image w3-round-large" alt="City Lights" style="margin-top:10px">
+
+  <h3>📚 Learning Resource</h3>
+  <p>If you're starting too, I highly recommend checking out <a href="https://www.w3schools.com/html/">HTML Tutorial on W3Schools</a>.</p>
+
+  <!-- JavaScript Button -->
+  <button class="custom-button" onclick="showMessage()">Click me to see something cool! 😄</button>
+
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-24">
+  <p>Made with curiosity and ☕ by Smruti</p>
+</footer>
+
+<!-- JavaScript -->
+<script>
+  function showMessage() {
+    alert("🎉 You just clicked a button I coded with JavaScript! Thanks for visiting!");
+  }
+</script>
+
+</body>
+</html>
